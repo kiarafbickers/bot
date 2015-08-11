@@ -18,7 +18,8 @@ client.stream('statuses/filter', {track: word}, function(stream) {
 
 
     var array = tweet.text.split('block ')
-    if(array[1][0]=='chain') { //We have found block chain
+    isItChain = array[1][0] + array[1][1] + array[1][2]+array[1][3]+array[1][4]
+    if(isItChain == 'chain') { //We have found block chain
 
         console.log(tweet.text); //Displays the tweet with the word
         //We store the twitter id and the user screen name to make a reply
