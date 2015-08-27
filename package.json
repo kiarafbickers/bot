@@ -1,0 +1,19 @@
+{
+  "name": "blockchainbot",
+  "version": "1.0.0",
+  "description": "Alert twitter users that they typed block chain when they meant blockchain.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kiaraRobles/bot.git"
+  },
+  "author": "Kiara Robles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiaraRobles/bot/issues"
+  },
+  "homepage": "https://github.com/kiaraRobles/bot"
+}
