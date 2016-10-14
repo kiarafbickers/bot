@@ -1,7 +1,7 @@
 //Load twitter module
 var Twitter = require('twitter');
 //Load de JSON file with bot's keys and tokens
-var keys = require('./keysBot.json');
+var keys = require('./keysbot.json');
 
 //Create the bot
 var client = new Twitter(keys);
